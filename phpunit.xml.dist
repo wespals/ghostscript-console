@@ -1,0 +1,17 @@
+<phpunit
+    bootstrap="vendor/autoload.php"
+    colors="true"
+    columns="max"
+    convertErrorsToExceptions="true"
+    convertDeprecationsToExceptions="true"
+>
+    <testsuite name="Ghostscript Command Test Suite">
+        <directory>tests</directory>
+    </testsuite>
+    
+    <filter>
+        <whitelist>
+            <directory suffix=".php">src/GhostscriptConsole/</directory>
+        </whitelist>
+    </filter>
+</phpunit>

@@ -1,0 +1,3 @@
+# temp directory for tests involving file operations
+*
+!.gitignore
